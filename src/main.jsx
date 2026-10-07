@@ -10,7 +10,7 @@ import Products from "./pages/Products.jsx"
 import Product from './pages/Product.jsx'
 
 import { RouterProvider } from 'react-router-dom'
-import { ShopProvider } from './shopContext.jsx'
+import { ShopProvider } from "./ShopContext.jsx";
 
 const routerProvider =createBrowserRouter([
   {
