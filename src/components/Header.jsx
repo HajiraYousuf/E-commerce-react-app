@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import useShop, { ShopContext } from '../shopContext'
+import useShop, { ShopContext } from '../ShopContext'
 
 const Header = () => {
   const {products}= useShop()

@@ -2,7 +2,7 @@ import React from 'react'
 import { FaTrash } from 'react-icons/fa'
 import { GoTrash } from 'react-icons/go'
 import Payments from './Payments'
-import useShop, { ShopContext } from '../shopContext'
+import useShop, { ShopContext } from '../ShopContext'
 
 const CartItems = () => {
   const {products,updateProductQuantity,removeFromCart} = useShop();

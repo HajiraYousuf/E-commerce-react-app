@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import ProductDetailsSkeleton from './ProductDetailsSkeleton';
-import { ShopContext } from '../shopContext';
+import { ShopContext } from '../ShopContext';
 
 const ProductDetails = () => {
     const context= useContext(ShopContext);
